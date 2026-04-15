@@ -1,0 +1,73 @@
+# -----------------------------
+# Python cache & compiled files
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+.env/
+.env.*
+.venv/
+env/
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+*.env
+
+# -----------------------------
+# VS Code settings
+# -----------------------------
+.vscode/
+*.code-workspace
+
+# -----------------------------
+# Jupyter Notebook checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Logs & temp files
+# -----------------------------
+*.log
+*.tmp
+*.swp
+*.swo
+
+# -----------------------------
+# OS generated files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Python packaging
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -----------------------------
+# Testing / coverage
+# -----------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# -----------------------------
+# LangChain / Project-specific
+# -----------------------------
+chat_history.txt   # if it's generated dynamically
+*.json             # optional (REMOVE if you want to keep schemas)
+
+# -----------------------------
+# Secrets / API keys (IMPORTANT)
+# -----------------------------
+.env
+.env.local
